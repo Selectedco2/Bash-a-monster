@@ -4,7 +4,7 @@ public class Character
 {
     public int health = 100;
     public int Fireball = 20;
-    public int Enthral = (10 + )
+    public int Enthral = 25;
     public string name = "Warlock";
 }
 

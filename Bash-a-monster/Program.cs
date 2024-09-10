@@ -9,17 +9,17 @@ Console.WriteLine("-------------------------------------------------------------
 
 Console.WriteLine($"{Warlock.name} has {Warlock.health} health");
 Console.WriteLine($"{Abomination.name} has {Abomination.health} health");
-Console.WriteLine("Would you like to attack, make peace... or get freaky..? [A) Fireball] [B) Peace]");
+Console.WriteLine("Would you like to attack or make peace? [A) Attack!] [B) Pacifist]");
 
 string firstStrike = Console.ReadLine().ToLower();
 
 if (firstStrike == "a")
 {
-    Console.WriteLine("You quickly lunge at the abomination before he can think");
+    Console.WriteLine("You quickly launch a fireball at your fingertips before the abomination can think");
 }
 else if (firstStrike == "b")
 {
-    Console.WriteLine("");
+    Console.WriteLine("The monster ");
 }
 
 Console.ReadKey();
